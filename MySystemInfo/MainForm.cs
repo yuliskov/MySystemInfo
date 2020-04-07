@@ -16,6 +16,9 @@ namespace MySystemInfo
         public MainForm()
         {
             InitializeComponent();
+            
+            textBox1.Text = Resources.MainForm_Loading;
+            textBox1.Text = InfoUtil.GetOsInformation();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

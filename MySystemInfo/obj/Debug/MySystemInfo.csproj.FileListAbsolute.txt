@@ -7,8 +7,8 @@ D:\other\me\proj_other\NTU_DP\2th\ArchComp\MySystemInfo\MySystemInfo\obj\Debug\M
 D:\other\me\proj_other\NTU_DP\2th\ArchComp\MySystemInfo\MySystemInfo\obj\Debug\MySystemInfo.exe
 D:\other\me\proj_other\NTU_DP\2th\ArchComp\MySystemInfo\MySystemInfo\obj\Debug\MySystemInfo.pdb
 D:\other\me\proj_other\NTU_DP\2th\ArchComp\MySystemInfo\MySystemInfo\obj\Debug\MySystemInfo.Form1.resources
-D:\other\me\proj_other\NTU_DP\2semestr\ArchComp\MySystemInfo\MySystemInfo\bin\Debug\MySystemInfo.exe
 D:\other\me\proj_other\NTU_DP\2semestr\ArchComp\MySystemInfo\MySystemInfo\bin\Debug\MySystemInfo.exe.config
+D:\other\me\proj_other\NTU_DP\2semestr\ArchComp\MySystemInfo\MySystemInfo\bin\Debug\MySystemInfo.exe
 D:\other\me\proj_other\NTU_DP\2semestr\ArchComp\MySystemInfo\MySystemInfo\bin\Debug\MySystemInfo.pdb
 D:\other\me\proj_other\NTU_DP\2semestr\ArchComp\MySystemInfo\MySystemInfo\obj\Debug\MySystemInfo.csprojAssemblyReference.cache
 D:\other\me\proj_other\NTU_DP\2semestr\ArchComp\MySystemInfo\MySystemInfo\obj\Debug\MySystemInfo.MainForm.resources
