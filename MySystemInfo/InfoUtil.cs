@@ -82,6 +82,10 @@ namespace MySystemInfo
             return StringBuilder1.ToString();
         }
         
+        public static string GetOsInformation()
+        {
+            return InfoUtil.GetDeviceInformation("Win32_OperatingSystem");
+        }
         
         public static string GetCpuInformation()
         {
@@ -93,14 +97,14 @@ namespace MySystemInfo
             return InfoUtil.GetDeviceInformation("Win32_VideoController");
         }
 
-        public static string GetHddInformation()
+        public static string GetDiskInformation()
         {
-            return InfoUtil.GetDeviceInformation("Win32_LogicalDisk");
+            return InfoUtil.GetDeviceInformation("Win32_DiskDrive");
         }
 
         public static string GetRamInformation()
         {
-            return InfoUtil.GetDeviceInformation("Win32_MemoryDevice");
+            return InfoUtil.GetDeviceInformation("Win32_PhysicalMemory");
         }
 
         static string[] stringWin32classes =

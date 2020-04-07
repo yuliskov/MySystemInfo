@@ -41,7 +41,7 @@ namespace MySystemInfo
         private void button1_Click(object sender, EventArgs e)
         {
             textBox1.Text = Resources.MainForm_Loading;
-            textBox1.Text = InfoUtil.GetSystemInformation();
+            textBox1.Text = InfoUtil.GetOsInformation();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -59,7 +59,7 @@ namespace MySystemInfo
         private void button4_Click(object sender, EventArgs e)
         {
             textBox1.Text = Resources.MainForm_Loading;
-            textBox1.Text = InfoUtil.GetHddInformation();
+            textBox1.Text = InfoUtil.GetDiskInformation();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -71,8 +71,8 @@ namespace MySystemInfo
         private void button6_Click(object sender, EventArgs e)
         {
             textBox1.Text = Resources.MainForm_Loading;
-            textBox1.Text = "App created by Yuriy Lyskov\n\n\n\n" +
-            "Email:  mailto:yu.liskov@gmail.com \n\n\n\nDownload Source Code:\n" +
+            textBox1.Text = "App created by Yuriy Lyskov\n\n" +
+            "Email:  mailto:yu.liskov@gmail.com \n\nDownload Source Code:\n" +
             "https://github.com/yuliskov/MySystemInfo";
         }
 

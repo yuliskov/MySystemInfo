@@ -64,7 +64,7 @@ namespace MySystemInfo
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(
-                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 60F));
+                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.tableLayoutPanel1.RowStyles.Add(
                 new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(933, 519);
@@ -82,7 +82,7 @@ namespace MySystemInfo
             this.tableLayoutPanel2.Controls.Add(this.button2, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.button1, 0, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 63);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 53);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 5;
             this.tableLayoutPanel2.RowStyles.Add(
@@ -167,10 +167,12 @@ namespace MySystemInfo
             // 
             this.textBox1.AcceptsTab = true;
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Location = new System.Drawing.Point(103, 63);
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
+            this.textBox1.Location = new System.Drawing.Point(103, 53);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(827, 453);
+            this.textBox1.Size = new System.Drawing.Size(827, 463);
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "";
             this.textBox1.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.textBox1_LinkClicked);
@@ -183,7 +185,7 @@ namespace MySystemInfo
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (204)));
-            this.textBox2.Location = new System.Drawing.Point(3, 17);
+            this.textBox2.Location = new System.Drawing.Point(3, 12);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(94, 26);
@@ -205,7 +207,7 @@ namespace MySystemInfo
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(
                 new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(827, 54);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(827, 44);
             this.tableLayoutPanel3.TabIndex = 3;
             // 
             // button6
@@ -215,7 +217,7 @@ namespace MySystemInfo
                 System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.button6.Location = new System.Drawing.Point(730, 3);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(94, 48);
+            this.button6.Size = new System.Drawing.Size(94, 38);
             this.button6.TabIndex = 4;
             this.button6.Text = "About";
             this.button6.UseVisualStyleBackColor = true;
@@ -229,7 +231,7 @@ namespace MySystemInfo
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (204)));
-            this.textBox3.Location = new System.Drawing.Point(3, 14);
+            this.textBox3.Location = new System.Drawing.Point(3, 9);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(721, 26);
