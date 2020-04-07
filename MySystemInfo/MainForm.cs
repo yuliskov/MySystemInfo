@@ -41,39 +41,44 @@ namespace MySystemInfo
         private void button1_Click(object sender, EventArgs e)
         {
             textBox1.Text = Resources.MainForm_Loading;
-            textBox1.Text = InfoUtil.SystemInformation();
+            textBox1.Text = InfoUtil.GetSystemInformation();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Text = Resources.MainForm_Loading;
-            textBox1.Text = InfoUtil.DeviceInformation("Win32_Processor");
+            textBox1.Text = InfoUtil.GetCpuInformation();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             textBox1.Text = Resources.MainForm_Loading;
-            textBox1.Text = InfoUtil.DeviceInformation("Win32_VideoController");
+            textBox1.Text = InfoUtil.GetGpuInformation();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             textBox1.Text = Resources.MainForm_Loading;
-            textBox1.Text = InfoUtil.DeviceInformation("Win32_LogicalDisk");
+            textBox1.Text = InfoUtil.GetHddInformation();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             textBox1.Text = Resources.MainForm_Loading;
-            textBox1.Text = InfoUtil.DeviceInformation("Win32_MemoryDevice");
+            textBox1.Text = InfoUtil.GetRamInformation();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             textBox1.Text = Resources.MainForm_Loading;
-            textBox1.Text = "Dedicated to opens source community by:\n Yuriy Lyskov\n\n\n\n" +
-            "Email:  yu.liskov@gmail.com \n\n\n\n Downlaod Source Code:\n" +
+            textBox1.Text = "App created by Yuriy Lyskov\n\n\n\n" +
+            "Email:  mailto:yu.liskov@gmail.com \n\n\n\nDownload Source Code:\n" +
             "https://github.com/yuliskov/MySystemInfo";
+        }
+
+        private void textBox1_LinkClicked(object sender, LinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(e.LinkText);
         }
     }
 }
