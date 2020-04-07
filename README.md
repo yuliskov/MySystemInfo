@@ -1,7 +1,7 @@
 # MySystemInfo
 
-## App that collects system information from local computer
+## Collects system information from local computer
 
-App is written on C# and WinForms
+App is written with C# and WinForms
 
 ![](app.jpg)
