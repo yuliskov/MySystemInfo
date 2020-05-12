@@ -1,3 +1,5 @@
+/bin
+/obj
 /smartyoutubetv/src/commonSrc/V*
 /smartyoutubetv/src/V*
 *.hprof
