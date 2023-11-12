@@ -167,9 +167,8 @@ namespace MySystemInfo
             // 
             this.textBox1.AcceptsTab = true;
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.textBox1.Location = new System.Drawing.Point(103, 53);
+            this.textBox1.Font = new System.Drawing.Font("Consolas", 9F);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(827, 463);
