@@ -17,7 +17,6 @@ namespace MySystemInfo
         {
             InitializeComponent();
             
-            textBox1.SelectionTabs = new int[] { 200, 300 };
             textBox1.Text = Resources.MainForm_Loading;
             textBox1.Text = InfoUtil.GetOsInformation();
         }
